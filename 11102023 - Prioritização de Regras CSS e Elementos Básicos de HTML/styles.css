@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: extra-large;
+    font-stretch: extra-expanded;
+}
+
+p{
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    padding-right: 2cm;
+    padding-left: 2cm;
+
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  li::before {
+    content: "•  ";
+    color: burlywood;
+    line-height: 2cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.destaque{
+    color: lightgreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-stretch: expanded;
+}
+
+#estiloespecifico{
+
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

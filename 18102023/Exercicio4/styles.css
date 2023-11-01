@@ -1,0 +1,150 @@
+body, html{
+margin: 0;
+padding: 0;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#corpo{
+    overflow: auto;
+    margin: 0;
+    border: 0;
+    height: 400px;
+    background-color: lightgrey;
+    text-align: left;
+}
+
+#rodape{
+    overflow: auto;
+    margin: 0;
+    border: 0;
+    padding: 0%;
+    text-align: center;
+    height: 100px;
+    background-color: grey;
+    float: left;
+    width: 100%; 
+}
+
+#lista-opcoes {
+    width: 17%;
+    text-align: left;
+    float:left;
+    padding: 0 20px 20px 20px;
+}
+
+#lista{
+    background-color: bisque;
+    list-style: square;
+    list-style-type: square;
+    color: dark;
+    padding: 10px 30px 30px 30px;
+    text-align: left;
+}
+
+#quadrados{
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#linha1{
+    padding: 30px;
+    display: inline-block;
+}
+
+
+#L11{
+    padding: 0 0 0 0;
+    background-color: yellow;
+    max-height: fit-content;
+    float: left;
+    width: 17%;
+}
+#L12{
+    padding: 15px;
+    background-color:white;
+    float: left;
+    max-height: fit-content;
+    width: 17%;
+    border-top: 5px solid blue;
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+    border-bottom: 1px dashed blue;
+
+}
+ #L13{
+    padding: 15px;
+    background-color:white;
+    float: left;
+    max-height: fit-content;
+    width: 17%;
+    border-top: 5px solid blue;
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+    border-bottom: 1px dashed blue;
+ }
+ #L14{
+    padding: 15px;
+    background-color:white;
+    float: left;
+    max-height: fit-content;
+    width: 17%;
+    border-top: 5px solid blue;
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+    border-bottom: 1px dashed blue;
+ }
+ #L15{
+    padding: 0 0 0 0;
+    background-color:lightyellow;
+    float: left; 
+    max-height: fit-content;
+    width: 17%;
+ }
+
+ #linha2{
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+
+}
+ #L21{
+    float: left; 
+    width: 17%;
+    max-height: fit-content;
+    background-color:white;
+    border-top: 5px solid blue;
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+    border-bottom: 1px dashed blue;
+ }
+ #L22{
+    float: left;
+    width: 17%;
+    max-height: fit-content;
+    background-color:white;
+    border-top: 5px solid blue;
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+    border-bottom: 1px dashed blue;
+}
+ #L23{
+    float: left; 
+    width: 17%;
+    max-height: fit-content;
+    background-color:white;
+    border-top: 5px solid blue;
+    border-left: 1px dashed blue;
+    border-right: 1px dashed blue;
+    border-bottom: 1px dashed blue;
+ }
+
+ #espaco{
+    float: left;
+    height: 250px;
+    width: 1%;
+}

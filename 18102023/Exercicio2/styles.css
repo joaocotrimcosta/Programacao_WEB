@@ -1,0 +1,44 @@
+body, html{
+margin: 10;
+padding: 15;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+}
+
+
+
+#esquerdo{
+    float: left;
+    height: 350px;
+    width: 25%;
+    text-align: left;
+    font-size: medium;
+    background-color: yellow;
+    padding: 5px;
+}
+
+#centro{
+    float:left;
+    height: 250px;
+    width: 42%;
+    text-align: left;
+    font-size: medium;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+#direita{
+    float: left;
+    height: 350px;
+    width: 25%;
+    text-align: left;
+    font-size: medium;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#espaco{
+    float: left;
+    height: 250px;
+    width: 1%;
+}

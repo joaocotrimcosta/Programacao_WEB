@@ -1,0 +1,107 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+}
+
+/*
+<div id="header"></div>
+<div id="main"></div>
+<div id="left"></div>
+<div id="right"></div>
+<div id="footer"></div>
+*/
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    height: 250px;
+    }
+
+    @media screen and (min-width: 1200px){
+        #header{
+            grid-column: 1 / 7;
+            background-color: rgb(22, 126, 218);
+        }
+        #left{
+            grid-column: 1 / 2;
+            background-color: lightblue;
+        }
+        #main{
+            grid-column: 2 / 6;
+            background-color: white;
+        }
+        #right{
+            grid-column: 6 / 7;
+            background-color: darkblue;
+            color: white;
+        }
+        #footer{
+            grid-column: 1 / 7;
+            background-color: darkgrey;
+        }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 1199px){
+
+        #container{
+            #header { order: 1}
+            #main { order: 2}
+            #left { order: 3}
+            #right { order: 4}
+            #footer { order: 5}
+        }
+        
+        #header{
+            grid-column: 1 / 7;
+            background-color: rgb(22, 126, 218);
+        }
+        #left{
+            grid-column: 1 / 4;
+            background-color: lightblue;
+        }
+        #main{
+            grid-column: 1 / 7;
+            background-color: white;
+        }
+        #right{
+            grid-column: 4 / 7;
+            background-color: darkblue;
+            color: white;
+        }
+        #footer{
+            grid-column: 1 / 7;
+            background-color: darkgrey;
+        }
+
+    }
+
+    @media screen and (max-width: 600px){
+
+        #header{
+            grid-column: 1 / 7;
+            background-color: rgb(22, 126, 218);
+        }
+    #left{
+            grid-column: 1 / 7;
+            background-color: lightblue;
+        }
+        #main{
+            grid-column: 1 / 7;
+            background-color: white;
+        }
+        #right{
+            grid-column: 1 / 7;
+            background-color: darkblue;
+            color: white;
+        }
+        #footer{
+            grid-column: 1 / 7;
+            background-color: darkgrey;
+        }
+    
+        
+
+
+    }

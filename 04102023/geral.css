@@ -1,0 +1,32 @@
+    h1{
+        color: blue;
+    }
+
+    /* selector utilizando ID */
+
+    #tituloVermelho{
+
+        color: red;
+    }
+
+    #tituloVerde{
+
+        color:lightgreen;
+    }
+
+    .diferenteType{
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        font-stretch: extra-expanded;
+        color: #666;
+    }
+    .corVerde{
+        color: green;
+    }
+
+    #zona3 .corVerde{
+
+        color: green;
+
+    }
